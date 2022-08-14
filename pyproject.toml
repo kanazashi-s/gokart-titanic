@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gokart-titanic"
+version = "1.0.0"
+description = "Tutorial of gokart."
+authors = ["kanazashi-s"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9.13"
+gokart = "*"
+category-encoders = "2.5.0"
+lightgbm = "3.3.2"
+
+[build-system]
+requires = ["poetry"]
+build-backend = "poetry.masonry.api"
