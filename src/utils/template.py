@@ -7,3 +7,4 @@ logger = getLogger(__name__)
 
 class GokartTask(gokart.TaskOnKart):
     task_namespace = 'gokart_titanic'
+    rerun = True
